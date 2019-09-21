@@ -1,0 +1,64 @@
+.report-widgets {
+	margin: 20px auto;
+}
+
+.report-widget {
+	border: 1px #eee solid;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 5px;
+	box-shadow: 5px 8px 8px #888888;
+	opacity: 0;
+}
+
+.report-widget .city {
+	font-size: medium;
+	font-weight: bold;
+	text-align: center;
+}
+
+.report-widget .data-holder {
+	width: 130px;
+}
+
+.report-widget .primary-data-holder {
+	
+}
+
+.report-widget .primary-data-holder .data {
+	
+}
+
+.report-widget .primary-data-holder .data .temperature {
+	font-size: medium;
+	font-weight: bold;
+	padding: 0pt 3pt;
+	padding-left: 100px;
+	background-image: url('./weather.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 100px;
+}
+
+.report-widget .clouds {
+	font-size: small;
+	text-align: center;
+}
+
+.report-widget .humidity {
+	color: gray;
+	font-size: x-small;
+	text-align: center;
+}
+
+.report-widget .wind {
+	color: gray;
+	font-size: x-small;
+	text-align: center;
+}
+
+.report-widget .pressure {
+	color: gray;
+	font-size: x-small;
+	text-align: center;
+}
